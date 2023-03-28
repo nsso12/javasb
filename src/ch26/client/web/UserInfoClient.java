@@ -18,6 +18,7 @@ public class UserInfoClient {
         Properties prop = new Properties();
         prop.load(fis);
 
+
         String dbType = prop.getProperty("DBTYPE");
         System.out.println(dbType);
 
