@@ -16,6 +16,7 @@ public class UserInfoClient {
         FileInputStream fis = new FileInputStream("db.properties");
 
         Properties prop = new Properties();
+
         prop.load(fis);
 
 
