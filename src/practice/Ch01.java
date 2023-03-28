@@ -4,7 +4,7 @@ public class Ch01 {
     public static void main(String[] args) {
 
         int n1 = 10;
-        int n2 = 20;
+        int n2 = 21;
 
         int total = addNum(n1, n2);
         System.out.println(total);
