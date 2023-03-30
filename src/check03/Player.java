@@ -3,7 +3,7 @@ package check03;
 public class Player {
 
     private PlayerLevel level;
-    public Player() {
+    public Player() {  // 비기너레벨이 기본 틀이라는걸까
         level = new BeginnerLevel();
         level.showLevelMessage();
     }
